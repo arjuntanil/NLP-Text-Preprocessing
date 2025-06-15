@@ -9,7 +9,7 @@ nlp = spacy.load("en_core_web_sm")
 
 # Initialize Stemmer and Lemmatizer
 stemmer = PorterStemmer()
-lemmatizer = WordNetLemmatizer()
+lemmatizer = WordNetLemmatiz
 
 # Get user input
 text = input("Enter your text: ")
